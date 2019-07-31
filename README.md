@@ -1,6 +1,6 @@
 # BPM---Full-Paths
 
-Algoritmo para extraer cada uno de los caminos de un BPMN
+Algoritmo para extraer cada uno de los caminos de un XPDL.
 
 Cada uno de los xpdl paso por un proceso de parseo.
 
