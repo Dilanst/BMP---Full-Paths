@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="e75bfcfb-f854-47f9-b08f-930cd1d485a5" Name="ch4_Mortgage5Chor" xmlns="http://www.wfmc.org/2009/XPDL2.2">
+  <PackageHeader>
+    <XPDLVersion>2.2</XPDLVersion>
+    <Vendor>Bizagi Process Modeler.</Vendor>
+    <Created>2016-09-15T09:00:54.7858429-05:00</Created>
+    <Description>ch4_Mortgage5Chor</Description>
+    <Documentation />
+  </PackageHeader>
+  <RedefinableHeader>
+    <Author>familia mejia</Author>
+    <Version>1.0</Version>
+    <Countrykey>CO</Countrykey>
+  </RedefinableHeader>
+  <ExternalPackages />
+  <Pools>
+    <Pool Id="b816b08a-69c2-420f-b90a-5e9383a2e6b2" Process="d626d12f-a724-467e-8820-9fdca95dd092" BoundaryVisible="false">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="0" Width="0" BorderColor="-16777216" FillColor="-1">
+          <Coordinates XCoordinate="30" YCoordinate="30" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+  </Pools>
+  <Associations>
+    <Association Id="c4d39dc5-09bb-4616-945a-7775f090a08d">
+      <ConnectorGraphicsInfos>
+        <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="-16777216">
+          <Coordinates XCoordinate="2382" YCoordinate="435" />
+          <Coordinates XCoordinate="2382.5" YCoordinate="435" />
+          <Coordinates XCoordinate="2382.5" YCoordinate="452" />
+          <Coordinates XCoordinate="2383" YCoordinate="452" />
+        </ConnectorGraphicsInfo>
+      </ConnectorGraphicsInfos>
+      <ExtendedAttributes />
+    </Association>
+    <Association Id="cfb2494e-2a01-4570-ba1d-b204ec03c8eb">
+      <ConnectorGraphicsInfos>
+        <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="-16777216">
+          <Coordinates XCoordinate="1320" YCoordinate="613" />
+          <Coordinates XCoordinate="1306" YCoordinate="613" />
+          <Coordinates XCoordinate="1306" YCoordinate="670" />
+          <Coordinates XCoordinate="1294" YCoordinate="670" />
+        </ConnectorGraphicsInfo>
+      </ConnectorGraphicsInfos>
+      <ExtendedAttributes />
+    </Association>
+    <Association Id="5b305e8a-f9b3-4c4a-98e4-0dce5eb91bed">
+      <ConnectorGraphicsInfos>
+        <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="-16777216">
+          <Coordinates XCoordinate="1300" YCoordinate="327" />
+          <Coordinates XCoordinate="1286" YCoordinate="327" />
+          <Coordinates XCoordinate="1286" YCoordinate="389" />
+          <Coordinates XCoordinate="1274" YCoordinate="389" />
+        </ConnectorGraphicsInfo>
+      </ConnectorGraphicsInfos>
+      <ExtendedAttributes />
+    </Association>
+  </Associations>
+  <Artifacts>
+    <Artifact BizAgiArtifactTypeSpecified="false" Id="ac92b871-9fe7-410c-bdfa-edb7948ead4b" ArtifactType="Annotation" TextAnnotation="Includes&#xA;Broker forwarding&#xA;application to&#xA;Client">
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="68.5" Width="100" BorderColor="-16777216" FillColor="-1">
+          <Coordinates XCoordinate="1320" YCoordinate="578.5" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Artifact>
+    <Artifact BizAgiArtifactTypeSpecified="false" Id="b1503f91-659b-4982-8987-d078a2844bcd" ArtifactType="Annotation" TextAnnotation="Includes&#xA;BestLoans&#xA;acknowledging&#xA;approval receipt to Client">
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="68.5" Width="100" BorderColor="-16777216" FillColor="-1">
+          <Coordinates XCoordinate="1300" YCoordinate="292.75" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Artifact>
+  </Artifacts>
+  <WorkflowProcesses>
+    <WorkflowProcess Id="d626d12f-a724-467e-8820-9fdca95dd092">
+      <ProcessHeader>
+        <Created>2016-09-15T09:01:37.4419128-05:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <DataInputOutputs />
+      <ExtendedAttributes>
+        <ExtendedAttribute Name="RuntimeProperties" Value="{&quot;processClassProperties&quot;:{&quot;accessType&quot;:&quot;Process&quot;,&quot;enableAlarms&quot;:false,&quot;enableNotifications&quot;:false,&quot;creationDate&quot;:&quot;2016-09-15T09:00:54.7897483-05:00&quot;},&quot;processProperties&quot;:{&quot;versionCreationDate&quot;:&quot;2016-09-15T09:00:54.7897483-05:00&quot;,&quot;supportsScopes&quot;:false,&quot;formsVersion&quot;:0}}" />
+      </ExtendedAttributes>
+    </WorkflowProcess>
+  </WorkflowProcesses>
+  <ExtendedAttributes />
+</Package>
